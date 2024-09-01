@@ -23,20 +23,21 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-        <!-- Tyrus Standalone Server -->
     <dependency>
-        <groupId>org.glassfish.tyrus</groupId>
-        <artifactId>tyrus-standalone-server</artifactId>
-        <version>1.18</version>
+        <groupId>org.java-websocket</groupId>
+        <artifactId>Java-WebSocket</artifactId>
+        <version>1.5.2</version>
     </dependency>
-
-    <!-- Tyrus Core -->
     <dependency>
-        <groupId>org.glassfish.tyrus</groupId>
-        <artifactId>tyrus-core</artifactId>
-        <version>1.18</version>
+        <groupId>io.socket</groupId>
+        <artifactId>socket.io-client</artifactId>
+        <version>0.7.0</version>
     </dependency>
-
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.8.9</version>
+    </dependency>
     <!-- WebSocket API -->
     <dependency>
         <groupId>javax.websocket</groupId>
